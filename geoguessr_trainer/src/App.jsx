@@ -2,12 +2,13 @@ import WelcomePage from './routes/WelcomePage';
 import { Tabs, TabList, TabPanels, TabPanel, Tab } from '@chakra-ui/react'
 import Guesser from './routes/Guesser'
 import React from 'react'
+import "./css/App.css"
 
 function App() {
 
   return (
-    <Tabs align="end" variant="soft-rounded">
-      <TabList>
+    <Tabs align={"center"} size={"lg"} variant="soft-rounded" defaultIndex={0}>
+      <TabList className='app-tablist'>
         <Tab>Home</Tab>
         <Tab>Poles</Tab>
         <Tab>Bollards</Tab>
