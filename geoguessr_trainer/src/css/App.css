@@ -1,3 +1,9 @@
 .app-tablist{
     margin: 2%;
 }
+.general-area{
+    height: 70vh;
+}
+.country-input{
+    margin-top: 2vh;
+}

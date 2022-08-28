@@ -15,7 +15,6 @@ export default function getImage(path_to_img, setImage){
 
     axios(config)
     .then(function (response) {
-    console.log(JSON.stringify(response.data));
     setImage(response.data)
     })
     .catch(function (error) {

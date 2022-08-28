@@ -12,7 +12,6 @@ export default function getRandomImage(setImageSrc, setCountry){
 
     axios(config)
     .then(function (response) {
-        console.log(JSON.stringify(response.data));
         setCountry(response.data.country);
         setImageSrc(response.data.image_path);
     })
